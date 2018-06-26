@@ -1,0 +1,37 @@
+@import "_all/reset.scss";
+@import "_all/config.scss";
+@import "_all/header.scss";
+@import "_all/content.scss";
+@import "_all/md.scss";
+@import "_all/archives.scss";
+
+html, body {
+  font-family: '微软雅黑', Arial, Helvetica, sans-serif
+}
+
+@media screen and (min-width: 400px) {
+  body {
+    box-sizing: border-box;
+    width: 90%;
+    max-width: 800px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    box-sizing: border-box;
+    width: 95%;
+    max-width: 800px;
+  }
+}
+
+html {
+  font-size: 625%;
+}
+
+body {
+  // margin: 0 20px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+

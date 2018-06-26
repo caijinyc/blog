@@ -1,0 +1,19 @@
+
+# html lang
+language: en
+
+# main menu navigation
+menu:
+  Home: /
+  About: /about
+  Github: https://github.com/caijinyc
+  Archives: /archives
+
+disqus:
+  enable: true
+  shortname: ciajinyc    #your name
+  count: true
+
+# Miscelaneous
+favicon: /favicon.ico
+

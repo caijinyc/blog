@@ -1,0 +1,179 @@
+#post,#page {
+  h1,h2,h3,h4,h5,strong {
+    color: $color-text-1;
+    font-weight: bold;
+  }
+  h1,h2,h3,h4,h5 {
+  }
+  h1 {
+    font-size: 0.28rem;
+  }
+  h2 {
+    font-size: 0.24rem;
+  }
+  h3 {
+    font-size: 0.20rem;
+  }
+  h4 {
+    font-size: 0.16rem;
+  }
+  h5 {
+    font-size: 0.15rem;
+  }
+  h1,h2 {
+    margin-bottom: 12px;
+    // border-bottom: 1px solid rgba($color: #000000, $alpha: 0.3);
+  }
+  p {
+    position: relative;
+    line-height: 25px;
+    margin: 30px 0;
+    color: $color-text-1;
+    img {
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 15px 0;
+      max-width: 100%;
+    }
+  }
+  ol, ul {
+    margin-left: 5px;
+    margin: 15px 0 30px 0;
+  }
+  li {
+    line-height: 25px;
+    margin-left: 20px;
+  }
+  code {
+    padding: 0 10px;
+    border-radius: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: rgba($color: #000000, $alpha: 0.1)
+  }
+  a {
+    color: #be002f;
+    border-bottom: 1px solid #be002f;
+  }
+
+  blockquote {
+    // background: rgba($color: #000000, $alpha: 0.1);
+    border-left: 5px solid rgb(229, 229, 229);
+    margin: 30px 0;
+    p {
+      color: rgb(121, 121, 121);
+      padding: 10px 25px;
+      font-size: 0.15rem;
+      font-style: italic;
+      text-align: justify;
+    }
+  }
+  figure {
+    margin: 30px 0;
+    .gutter {
+      display: none;
+    }
+    table {
+      width: 100%;
+      pre {
+      padding: 15px 20px;
+        .line {
+          line-height: 0.2rem;
+          font-family: 'Open Sans', sans-serif;
+        }
+      }
+    }
+    .code {
+      margin: 0;
+      font-size: 90%;
+      background-color: rgba(27, 31, 35, .05);
+      border-radius: 3px;
+
+      .comment,
+      .quote {
+        color: #998;
+        font-style: italic
+      }
+      
+      .keyword,
+      .selector-tag,
+      .subst {
+        color: #333;
+        font-weight: bold
+      }
+      
+      .number,
+      .literal,
+      .variable,
+      .template-variable,
+      .tag .attr {
+        color: #008080
+      }
+      
+      .string,
+      .doctag {
+        color: #d14
+      }
+      
+      .title,
+      .section,
+      .selector-id {
+        color: #900;
+        font-weight: bold
+      }
+      
+      .subst {
+        font-weight: normal
+      }
+      
+      .type,
+      .class .title {
+        color: #458;
+        font-weight: bold
+      }
+      
+      .tag,
+      .name,
+      .attribute {
+        color: #000080;
+        font-weight: normal
+      }
+      
+      .regexp,
+      .link {
+        color: #009926
+      }
+      
+      .symbol,
+      .bullet {
+        color: #990073
+      }
+      
+      .built_in,
+      .builtin-name {
+        color: #0086b3
+      }
+      
+      .meta {
+        color: #999;
+        font-weight: bold
+      }
+      
+      .deletion {
+        background: #fdd
+      }
+      
+      .addition {
+        background: #dfd
+      }
+      
+      .emphasis {
+        font-style: italic
+      }
+      
+      .strong {
+        font-weight: bold
+      }
+    }
+  }
+}
