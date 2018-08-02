@@ -79,7 +79,7 @@ theme: curry
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:CaiJinyc/blog.git
+  repo: https://REPO_TOKEN@github.com/CaiJinyc/blog.git
   branch: master
 
 google_search: true

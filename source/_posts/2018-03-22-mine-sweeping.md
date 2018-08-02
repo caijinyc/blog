@@ -5,7 +5,7 @@ tags:
 - 游戏
 ---
 
-学习了这么长时间的 JS，不能光看不练，于是就写了个小游戏练习一下。因为自己还是个菜鸟，所以有错误的话还请各位大佬多多指点，谢谢啦~ <!--more-->
+学习了这么长时间的 JS，不能光看不练，于是就写了个小游戏练习一下。因为自己还是个菜鸟，所以有错误的话还请各位大佬多多指点，谢啦~ <!--more-->
 
 如果感兴趣的话可以试试：[Demo](http://caijin.tech/demo/mineSweeping/index.html)
 项目地址：[game-mineSweepinng](https://github.com/CaiJinyc/game-mineSweepinng)
