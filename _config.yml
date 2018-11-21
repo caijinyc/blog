@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: CaiJinyc's Blog
-subtitle:
+title: Orbem's Life Notes
+subtitle: 生活筆記
 description:
 keywords:
-author: CaiJinyc
-language: zh-CN
+author: Orbem
+language: en
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://caijin.tech/blog
+url: http://orbem.cc/blog
 root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -40,7 +40,7 @@ relative_link: false
 future: true
 highlight:
   enable: true
-  line_number: true
+  line_number: false
   auto_detect: false
   tab_replace:
   
@@ -62,7 +62,7 @@ tag_map:
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD
+date_format: MMMM Do YYYY
 time_format: HH:mm:ss
 
 # Pagination
@@ -73,13 +73,14 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: curryy
+theme: osimple
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://REPO_TOKEN@github.com/CaiJinyc/blog.git
+  repo: https://REPO_TOKEN@github.com/orbem/blog.git
   branch: master
 
 google_search: true
+

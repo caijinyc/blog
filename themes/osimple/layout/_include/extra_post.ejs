@@ -1,0 +1,15 @@
+<div class="pager-post">
+    <% if (page.prev) { %>
+      <a class="prev-link" href="<%- url_for(page.prev.path) %>">
+        <span>PREVIOUS</span>
+        <p><%= page.prev.title %></p>
+      </a>
+    <% } %>
+    
+    <% if (page.next) { %>
+      <a class="next-link" href="<%- url_for(page.next.path) %>">
+        <span>NEXT</span>
+        <p><%= page.next.title %></p>
+      </a>
+    <% } %>
+  </div>

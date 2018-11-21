@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title><%= config.title %></title>
+  <%- css('css/arduino-light.css') %>
+  <%- css('css/osimple.css') %>
+</head>
+<body>
+    <%- partial('_include/header.ejs', {}, { cache: true }) %>
+  <main>
+    <div class="top-inner">
+      <h1 class="page-title">
+        <%= page.title %>
+      </h1>
+      <% if (page.date) { %>
+        <time datetime="<%= page.date.toJSON() %>">
+            Posted by Orbem on <%= date(page.date) %>
+        </time>
+      <% } %>
+      <% if (page.tags && page.tags.length > 0) { %>
+        <ul class="tag-list">
+          <% page.tags.forEach((v) => { %>
+            <li class="tag-list-item">
+              <a href="<%= config.root + v.path %>"><%= v.name %></a>
+            </li>
+          <% }) %>
+        </ul>
+      <% } %>
+    </div>
+    <article class="post">
+        <%- page.content %>
+    </article>
+    <% include _include/extra_post.ejs %>
+    <!-- <% include _include/comment_tmp.ejs %> -->
+  </main>
+  <%- partial('_include/footer.ejs', {}, { cache: true }) %>
+  <% include _include/comment.ejs %>
+  <%- js('js/highlight.js') %>
+</body>
+</html>
+
+

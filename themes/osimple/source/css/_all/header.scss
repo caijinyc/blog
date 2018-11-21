@@ -1,0 +1,47 @@
+header {
+  margin: 100px 0 100px 0; 
+  text-align: center;
+
+  .home-title-content {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 100px;
+  }
+  
+  .title {
+    display: inline-block;
+    font-size: 36px;
+    font-weight: 700;
+    color: #4A4A4A;
+  }
+
+  .subtitle {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 120px;
+    width: 200px;
+    transform: rotate(-32deg);
+    font-weight: bold;
+    font-size: 44px;
+    color: #50E3C2;
+    z-index: -1;
+  }
+
+  .menu-inner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 520px;
+
+    a {
+      font-size: 16px;
+      font-weight: bold;
+      color: #4A4A4A;
+
+      &:hover {
+        color: #50E3C2;
+      }
+    }
+  }
+}

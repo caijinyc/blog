@@ -1,0 +1,15 @@
+<header>
+  <div class="home-title-content">
+    <h1 class="title">
+        <%= config.title %>
+    </h1>
+    <span class="subtitle">
+      <%= config.subtitle %>
+    </span>
+  </div>
+  <div class="menu-inner">
+      <% Object.keys(theme.menu).forEach(function(key) { %>
+        <a href="<%= url_for(theme.menu[key]) %>"><%= key %></a>
+      <% }); %>
+  </div>
+</header>

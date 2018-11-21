@@ -1,0 +1,17 @@
+
+# html lang
+language: en
+
+# main menu navigation
+menu:
+  HOME: /
+  ARCHIVES: /archives
+  ABOUT: /about
+  TAGS: /tags
+
+# Miscelaneous
+favicon: /favicon.ico
+
+# your disqus shortname
+disqus: orbem
+

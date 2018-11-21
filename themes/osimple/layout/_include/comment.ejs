@@ -1,0 +1,15 @@
+<% if(theme.disqus){ %>
+  <script>
+      var disqus_shortname = '<%= theme.disqus %>';
+      var disqus_config = function () {
+          this.page.url = '<%= config.url + page.path %>';
+          this.page.identifier = '<%= page.path %>';
+      };
+      (function () {
+          var d = document, s = d.createElement('script');
+          s.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.body || d.head).appendChild(s);
+      })();
+  </script>
+<% } %>

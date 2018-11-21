@@ -6,7 +6,7 @@ if (is_tag()) pageTitle = 'Tag: ' + page.tag;
 if (is_category()) pageTitle = 'Category: ' + page.category;
 if (is_month()) pageTitle += ': ' + page.month + '/' + page.year;
 if (is_year()) pageTitle += ': ' + page.year;
-pageTitle += ' [ ' + config.title + ' ]';
+pageTitle += config.title;
 %>
 
 <!DOCTYPE html>
@@ -15,7 +15,7 @@ pageTitle += ' [ ' + config.title + ' ]';
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, user-scalable=no">
 
-  <title><%=pageTitle%></title>
+  <title><%= pageTitle %></title>
   <link href='http://fonts.font.im/css?family=Open+Sans:400,400italic,700,700italic,800,800italic|Source+Sans+Pro:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
   <%- css('css/bozh.css') %>
 </head>
