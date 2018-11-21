@@ -1,0 +1,14 @@
+<ul class="all-tag-list">
+    <% if (site.tags && site.tags.length > 0) { %>
+      <% site.tags.forEach((v) => { %>
+      <li class="tag-list-item">
+        <a href="<%- url_for(v.path) %>">
+          <%= v.name %>
+          <span class="count">
+            <%= v.length %>
+          </span>
+        </a>
+      </li>
+      <% }) %>
+    <% } %>
+  </ul>

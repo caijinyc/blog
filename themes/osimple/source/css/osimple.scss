@@ -2,6 +2,7 @@
 @import "_all/header.scss";
 @import "_all/footer.scss";
 @import "_all/page.scss";
+@import "_all/tag.scss";
 @import "_all/posts.scss";
 
 body {
@@ -38,5 +39,44 @@ main {
     font-size: 16px;
     font-weight: bold;
     color: #4A4A4A;
+  }
+}
+
+.all-tag-list {
+  margin-bottom: 25px;
+
+  li {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 6px;
+    list-style: none;
+    border-radius: 10px;
+    border: 1px solid #4A4A4A;
+
+    &:hover {
+      background: #50E3C2;
+      border: 1px solid #50E3C2;
+
+      a,
+      span {
+        color: #fff;
+        z-index: 1;
+      }
+    }
+
+    a {
+      display: inline-block;
+      padding: 8px 12px 8px 12px;
+      font-size: 14px;
+      color: #4A4A4A;
+      text-align: justify;
+    }
+
+    span {
+      position: relative;
+      top: -3px;
+      font-size: 13px;
+      user-select: none;
+    }
   }
 }

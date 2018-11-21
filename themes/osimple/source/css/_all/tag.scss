@@ -1,0 +1,63 @@
+.main-tags {
+  .all-tags,
+  .current-tag,
+  .posts-list {
+    .title {
+      font-size: 18px;
+      font-weight: bold;
+      color: #4A4A4A;
+      margin-bottom: 15px;
+    }
+  }
+
+  .current-tag {
+    .tag-name {
+      display: inline-block;
+      margin-bottom: 25px;
+      padding: 8px 12px 8px 12px;
+      background: #50E3C2;
+      color: #fff;
+      font-size: 16px;
+      border-radius: 10px;
+      border: 1px solid #50E3C2;
+    }
+  }
+
+  .archive-posts {
+    .archive-post-item {
+      border-bottom: 1px solid rgb(235, 235, 235);
+    }
+
+    .post-title, time {
+      font-size: 20px;
+    }
+
+    .post-title {
+      a {
+        display: block;
+        padding: 20px 0;
+        color: #4A4A4A;
+
+        &:hover {
+          color: #50E3C2;
+
+          time {
+            color: #50E3C2;
+          }
+        }
+      }
+    }
+
+    time {
+      color: #4A4A4A;
+      float: right;
+      font-style: italic;
+    }
+
+    @media screen and (max-width: 450px) {
+      time {
+        display: none;
+      }
+    }
+  }
+}

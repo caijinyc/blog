@@ -35,6 +35,10 @@
     </article>
     <% include _include/extra_post.ejs %>
     <% include _include/comment_tmp.ejs %>
+    <div class="post-all-tags">
+      <h1 class="title">ALL TAGS</h1>
+      <% include _include/all_tags.ejs %>
+    </div>
   </main>
   <%- partial('_include/footer.ejs', {}, { cache: true }) %>
   <% include _include/comment.ejs %>
