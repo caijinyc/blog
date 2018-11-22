@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title><%= config.title %></title>
   <%- css('css/osimple.css') %>
+  <%- favicon_tag(theme.favicon) %> 
 </head>
 <body>
   <%- partial('_include/header.ejs', {}, { cache: true }) %>

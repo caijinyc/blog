@@ -7,6 +7,7 @@
   <title><%= config.title %></title>
   <%- css('css/arduino-light.css') %>
   <%- css('css/osimple.css') %>
+  <%- favicon_tag(theme.favicon) %> 
 </head>
 <body>
     <%- partial('_include/header.ejs', {}, { cache: true }) %>
@@ -37,7 +38,7 @@
     <% include _include/comment_tmp.ejs %>
     <div class="post-all-tags">
       <h1 class="title">ALL TAGS</h1>
-      <% include _include/all_tags.ejs %>
+      <%- partial('_include/all_tags.ejs', {}, { cache: true }) %>
     </div>
   </main>
   <%- partial('_include/footer.ejs', {}, { cache: true }) %>

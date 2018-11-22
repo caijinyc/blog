@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title><%= config.title %></title>
   <%- css('css/osimple.css') %>
+  <%- favicon_tag(theme.favicon) %> 
 </head>
 <body>
   <%- partial('_include/header.ejs', {}, { cache: true }) %>
@@ -14,7 +15,7 @@
       <h1 class="title">
         ALL TAGS
       </h1>
-      <% include _include/all_tags.ejs %>
+      <%- partial('_include/all_tags.ejs', {}, { cache: true }) %>
     </div>
     <div class="posts-list">
       <h1 class="title">
