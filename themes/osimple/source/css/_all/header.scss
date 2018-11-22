@@ -12,7 +12,7 @@ header {
     display: inline-block;
     font-size: 36px;
     font-weight: 700;
-    color: #4A4A4A;
+    color: $color-text;
   }
 
   .subtitle {
@@ -24,7 +24,7 @@ header {
     transform: rotate(-32deg);
     font-weight: bold;
     font-size: 44px;
-    color: #50E3C2;
+    color: $color-theme;
     z-index: -1;
   }
 
@@ -37,10 +37,11 @@ header {
     a {
       font-size: 16px;
       font-weight: bold;
-      color: #4A4A4A;
+      letter-spacing: 1px;
+      color: $color-text;
 
       &:hover {
-        color: #50E3C2;
+        color: $color-theme;
       }
     }
   }

@@ -5,7 +5,7 @@
     .title {
       font-size: 18px;
       font-weight: bold;
-      color: #4A4A4A;
+      color: $color-text;
       margin-bottom: 15px;
     }
   }
@@ -15,17 +15,17 @@
       display: inline-block;
       margin-bottom: 25px;
       padding: 8px 12px 8px 12px;
-      background: #50E3C2;
+      background: $color-theme;
       color: #fff;
       font-size: 16px;
       border-radius: 10px;
-      border: 1px solid #50E3C2;
+      border: 1px solid $color-theme;
     }
   }
 
   .archive-posts {
     .archive-post-item {
-      border-bottom: 1px solid rgb(235, 235, 235);
+      border-bottom: 1px solid $color-border-light;
     }
 
     .post-title, time {
@@ -36,20 +36,20 @@
       a {
         display: block;
         padding: 20px 0;
-        color: #4A4A4A;
+        color: $color-text;
 
         &:hover {
-          color: #50E3C2;
+          color: $color-theme;
 
           time {
-            color: #50E3C2;
+            color: $color-theme;
           }
         }
       }
     }
 
     time {
-      color: #4A4A4A;
+      color: $color-text;
       float: right;
       font-style: italic;
     }

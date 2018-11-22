@@ -5,8 +5,15 @@ language: en
 # main menu navigation
 menu:
   HOME: /
-  ARCHIVES: /archives
+  ARCHIVE: /archives
   ABOUT: /about
+
+connect:
+  # weibo: /
+  github: https://github.com/orbem
+  # twitter: /
+  juejin: https://juejin.im/user/5acc88a8f265da23a2297002
+  zhihu: https://www.zhihu.com/people/adherds/activities
 
 # Miscelaneous
 favicon: /favicon.ico

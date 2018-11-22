@@ -5,7 +5,7 @@
   .recent-post-item {
     position: relative;
     margin-bottom: 40px;
-    border-bottom: 1px solid #E3E3E3;
+    border-bottom: 1px solid $color-border-light;
 
     &:last-child {
       margin-bottom: 50px;
@@ -17,11 +17,11 @@
         margin-bottom: 8px;
         font-size: 24px;
         font-weight: bold;
-        color: #4A4A4A;
+        color: $color-text;
         text-align: left;
   
         &:hover {
-          color: #50E3C2;
+          color: $color-theme;
         }
       }
     }
@@ -34,7 +34,7 @@
 
         a {
           font-size: 14px;
-          color: #4A4A4A;
+          color: $color-text;
           text-align: justify;
 
           &::before {
@@ -88,7 +88,7 @@
   margin-top: 30px;
   .title {
     margin-bottom: 15px;
-    color: #4A4A4A;
+    color: $color-text;
     font-size: 18px;
     font-weight: bold;
   }

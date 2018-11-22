@@ -13,31 +13,33 @@
   h1,h2,h3,h4,h5 {
     font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB",STHeiti,"Microsoft YaHei","Microsoft JhengHei","Source Han Sans SC","Noto Sans CJK SC","Source Han Sans CN","Noto Sans SC","Source Han Sans TC","Noto Sans CJK TC","WenQuanYi Micro Hei",SimSun,sans-serif;
     margin: 30px 0 10px 0;
-    color: #4A4A4A;
+    color: $color-text;
   }
 
   h1 {
-    font-size: 28px;
+    font-size: 36px;
   }
 
   h2 {
-    font-size: 24px;
+    font-size: 30px;
   }
 
   h3 {
-    font-size: 20px;
+    font-size: 24px;
   }
 
   h4 {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   h5 {
-    font-size: 16px;
+    font-size: 19px;
+    color: gray;
   }
 
   h6 {
     font-size: 16px;
+    color: gray;
   }
 
   h1,h2 {
@@ -49,7 +51,7 @@
     margin: 30px 0;
     line-height: 1.7;
     font-size: 16px;
-    color: #404040;
+    color: $color-text;
 
     &:first-child {
       margin-top: 0px
@@ -69,7 +71,7 @@
     margin: 30px 0;
 
     p {
-      color: rgb(121, 121, 121);
+      color: gray;
       padding: 10px 25px;
       font-size: 15px;
       font-style: italic;
@@ -78,13 +80,14 @@
   }
 
   ol, ul {
-    margin-left: 5px;
     margin: 15px 0 30px 0;
+    color: $color-text;
+    font-size: 15px;
   }
 
   li {
     line-height: 25px;
-    margin-left: 20px;
+    margin-left: 30px;
   }
 
   a {
@@ -119,6 +122,28 @@
     border-radius: 3px;
     font-size: 14.4px;
   }
+
+  .headerlink {
+    display: inline-block;
+    font-weight: bold;
+
+    &::after {
+      content: '#';
+    }
+  }
+
+  @media screen and (min-width: 740px) {
+    .headerlink {
+      position: absolute;
+      left: -28px;
+    }
+  }
+
+  @media screen and (max-width: 740px) {
+    .headerlink {
+      float: right;
+    }
+  }
 }
 
 .top-inner {
@@ -126,9 +151,9 @@
 
   .page-title {
     position: relative;
-    font-size: 30px;
+    font-size: 36px;
     font-weight: bold;
-    color: #4A4A4A;
+    color: $color-text;
     margin-bottom: 8px;
   }
   
@@ -144,15 +169,15 @@
       a {
         padding: 5px 10px;
         border-radius: 10px;
-        border: 1px solid #4A4A4A;
+        border: 1px solid $color-text;
         font-size: 14px;
-        color: #4A4A4A;
+        color: $color-text;
         text-align: justify;
 
         &:hover {
           color: #fff;
-          background: #50E3C2;
-          border: 1px solid #50E3C2;
+          background: $color-theme;
+          border: 1px solid $color-theme;
         }
       }
     }
@@ -168,38 +193,37 @@
     width: 40%;
     display: inline-block;
     padding: 3%;
-    border: 1px solid #404040;
+    color: $color-text;
+    border: 1px solid $color-light-gray;
     text-align: center;
 
     &:hover {
       color: #fff;
-      background: #50E3C2;
-      border: 1px solid #50E3C2;
+      background: $color-theme;
+      border: 1px solid $color-theme;
+
+      p {
+        color: #fff;
+      }
       
     }
 
     span {
       display: inline-block;
       margin-bottom: 5px;
+      font-size: 14px;
       font-weight: bold;
+      letter-spacing: 2px;
     }
 
     p {
-      font-size: 15px;
+      font-size: 14px;
       line-height: 1.2;
+      color: $color-text;
     }
   }
 
   .next-link {
     float: right;
-    font-size: 16px;
-    font-weight: bold;
-    color: #4A4A4A;
-  }
-  
-  .prev-link {
-    font-size: 16px;
-    font-weight: bold;
-    color: #4A4A4A;
   }
 }

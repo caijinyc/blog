@@ -1,13 +1,13 @@
 <div class="pager-index">
   <% if (page.prev) { %>
     <a class="prev-link" href="<%- url_for(page.prev_link) %>">
-      NEWER POSTS
+      <i class="iconfont icon-next-m-copy"></i> NEWER POSTS
     </a>
   <% } %>
   
   <% if (page.next) { %>
     <a class="next-link" href="<%- url_for(page.next_link) %>">
-      OLDER POSTS
+      OLDER POSTS <i class="iconfont icon-next-m"></i>
     </a>
   <% } %>
 </div>
