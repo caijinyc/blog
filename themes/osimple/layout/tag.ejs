@@ -29,7 +29,7 @@
       <h1 class="title">
         CURRENT TAG'S POSTS
       </h1>
-      <%- partial('_include/all_tags.ejs', {}, { cache: true }) %>
+      <% include _include/tag_posts.ejs %>
     </div>
   </main>
   <%- partial('_include/footer.ejs', {}, { cache: true }) %>
