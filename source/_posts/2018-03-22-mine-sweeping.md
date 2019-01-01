@@ -7,23 +7,25 @@ tags:
 
 学习了这么长时间的 JS，不能光看不练，于是就写了个小游戏练习一下。因为自己还是个菜鸟，所以有错误的话还请各位大佬多多指点，谢啦~ <!--more-->
 
-如果感兴趣的话可以试试：[Demo](http://caijin.tech/demo/mineSweeping/index.html)
-项目地址：[game-mineSweepinng](https://github.com/CaiJinyc/game-mineSweepinng)
+如果感兴趣的话可以试试：[Demo](https://caijin.tech/demo/mineSweeping/index.html)
+项目地址：[game-mineSweepinng](https://github.com/caijinyc/game-mineSweepinng)
 
 ## 效果图
 #### 扫雷过程
 扫呀扫呀扫个雷。
-![](http://hexo-image.oss-cn-shenzhen.aliyuncs.com/18-5-2/30416056.jpg)
+
+<img src="https://s2.ax1x.com/2019/01/01/F5M1UJ.png" alt="F5M1UJ.png" border="0">
 
 ####  扫雷失败
 扫雷失败就会提示扫雷失败，然后逐步显示出所有地雷（我会说我没找到地雷的图才用的炸弹吗）。
-![](http://hexo-image.oss-cn-shenzhen.aliyuncs.com/18-5-2/37179305.jpg)
+
+<img src="https://s2.ax1x.com/2019/01/01/F5M359.jpg" alt="F5M359.jpg" border="0">
 
 
 #### 扫雷成功
 其实这里是有个动画的，彩色方块是逐步覆盖全部格子的。
-![](http://hexo-image.oss-cn-shenzhen.aliyuncs.com/18-5-2/34681198.jpg)
 
+<img src="https://s2.ax1x.com/2019/01/01/F5MMbF.gif" alt="F5MMbF.gif" border="0" />
 
 ## 功能
 #### 实现的功能
