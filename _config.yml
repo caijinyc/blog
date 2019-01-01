@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Orbem's Life Notes
+title: CaiJin's Life Notes
 subtitle: 生活筆記
 description:
 keywords:
-author: Orbem
+author: caijin
 language: en
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://orbem.cc/blog
+url: https://caijin.tech/blog
 root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -79,7 +79,7 @@ theme: osimple
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://REPO_TOKEN@github.com/orbem/blog.git
+  repo: https://REPO_TOKEN@github.com/caijinyc/blog.git
   branch: master
 
 google_search: true
