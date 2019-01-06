@@ -10,22 +10,16 @@ header {
   
   .title {
     display: inline-block;
-    font-size: 36px;
+    font-size: 45px;
     font-weight: 700;
     color: $color-text;
   }
 
   .subtitle {
     display: inline-block;
-    position: absolute;
-    top: 0;
-    left: 120px;
-    width: 200px;
-    transform: rotate(-32deg);
     font-weight: bold;
     font-size: 44px;
     color: $color-theme;
-    z-index: -1;
   }
 
   .menu-inner {
