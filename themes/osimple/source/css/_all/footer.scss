@@ -4,6 +4,7 @@ footer {
   
   .connect-inner {
     margin-bottom: 30px;
+    
     a {
       display: inline-block;
       margin: 0 3px;
@@ -11,10 +12,6 @@ footer {
       height: 44px;
       border-radius: 50%;
       background: $color-text;
-
-      &:hover {
-        background: $color-theme;
-      }
 
       i {
         display: inline-block;

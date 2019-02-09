@@ -1,0 +1,66 @@
+header {
+  background-image: $color-background;
+}
+
+.subtitle {
+  color: $color-theme;
+}
+
+.pager-index {
+  .next-link:hover {
+      color: $color-theme;
+  }
+
+  .prev-link:hover {
+    color: $color-theme;
+  }
+}
+
+.all-tag-list {
+  li:hover {
+    background: $color-theme;
+    border: 1px solid $color-theme;
+
+    a,
+    span {
+      color: #fff;
+      z-index: 1;
+    }
+  }
+}
+
+.archive-posts .post-title a:hover {
+  color: $color-theme;
+
+  time {
+    color: $color-theme;
+  }
+}
+
+.post-title a {
+  color: $color-text;
+  &:hover {
+    color: $color-theme;
+  }
+}
+
+.main-tags {
+  .current-tag {
+    background: $color-theme;
+    border: 1px solid $color-theme;
+  }
+}
+
+.post-menu-inner a:hover{
+  color: $color-theme;
+}
+
+.top-inner .tag-list a:hover {
+  color: #fff;
+  background: $color-theme;
+  border: 1px solid $color-theme;
+}
+
+.connect-inner a:hover {
+  background: $color-theme;
+}

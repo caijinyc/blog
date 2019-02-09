@@ -1,5 +1,6 @@
 header {
-  margin: 100px 0 100px 0; 
+  padding: 100px 0 80px 0;
+  margin-bottom: 20px;
   text-align: center;
 
   .home-title-content {
@@ -10,16 +11,25 @@ header {
   
   .title {
     display: inline-block;
-    font-size: 45px;
+    margin-top: 10px;
+    font-size: 60px;
     font-weight: 700;
     color: $color-text;
+    color: white;
+  }
+ 
+  .desc {
+    margin-top: 10px;
+    letter-spacing: 1px;
+    opacity: 0.8;
+    color: white;
+    font-size: 16px;
   }
 
   .subtitle {
     display: inline-block;
     font-weight: bold;
     font-size: 44px;
-    color: $color-theme;
   }
 
   .menu-inner {
@@ -33,9 +43,10 @@ header {
       font-weight: bold;
       letter-spacing: 1px;
       color: $color-text;
+      color: white;
 
       &:hover {
-        color: $color-theme;
+        color: $color-header-hover;
       }
     }
   }

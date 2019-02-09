@@ -5,24 +5,29 @@
   <%- css('css/arduino-light.css') %>
 </head>
 <body>
-  <div class="post-menu-inner">
-    <a class="left" href="<%= url_for(theme.menu.HOME) %>"><%= config.title %></a>
-    <div class="right">
-      <% Object.keys(theme.menu).forEach(function(key) { %>
-        <a href="<%= url_for(theme.menu[key]) %>"><%= key %></a>
-      <% }); %>
-    </div>
-  </div>
+  <header>
+      <div class="home-title-content">
+        <h1 class="title">
+            ABOUT ME
+        </h1>
+        <span class="subtitle">
+          <%= config.subtitle %>
+        </span>
+        <p class="desc">
+            <%= config.description %>
+          </p>
+      </div>
+      <div class="menu-inner">
+          <% Object.keys(theme.menu).forEach(function(key) { %>
+            <a href="<%= url_for(theme.menu[key]) %>"><%= key %></a>
+          <% }); %>
+      </div>
+    </header>
   <main>
     <div class="top-inner">
       <h1 class="page-title">
         <%= page.title %>
       </h1>
-      <% if (page.date) { %>
-        <time datetime="<%= page.date.toJSON() %>">
-            Posted by Orbem on <%= date(page.date) %>
-        </time>
-      <% } %>
       <% if (page.tags && page.tags.length > 0) { %>
         <ul class="tag-list">
           <% page.tags.forEach((v) => { %>

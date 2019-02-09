@@ -15,11 +15,9 @@
       display: inline-block;
       margin-bottom: 25px;
       padding: 8px 12px 8px 12px;
-      background: $color-theme;
       color: #fff;
       font-size: 16px;
       border-radius: 10px;
-      border: 1px solid $color-theme;
     }
   }
 
@@ -37,14 +35,6 @@
         display: block;
         padding: 20px 0;
         color: $color-text;
-
-        &:hover {
-          color: $color-theme;
-
-          time {
-            color: $color-theme;
-          }
-        }
       }
     }
 
