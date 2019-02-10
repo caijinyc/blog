@@ -5,14 +5,6 @@
   <%- css('css/arduino-light.css') %>
 </head>
 <body>
-    <div class="post-menu-inner">
-      <a class="left" href="<%= url_for(theme.menu.HOME) %>"><%= config.title %></a>
-      <div class="right">
-        <% Object.keys(theme.menu).forEach(function(key) { %>
-          <a href="<%= url_for(theme.menu[key]) %>"><%= key %></a>
-        <% }); %>
-      </div>
-    </div>
   <main>
     <div class="top-inner">
       <h1 class="page-title">
