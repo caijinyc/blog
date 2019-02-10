@@ -7,7 +7,7 @@
         </div>
         <% if (post.date) { %>
           <time datetime="<%= post.date.toJSON() %>">
-              Posted by Orbem on <%= date(post.date) %>
+              Posted by <%= config.author %> on <%= date(post.date) %>
           </time>
         <% } %>
         <div class="md-excerpt"><%- post.excerpt %></div>
