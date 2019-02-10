@@ -5,14 +5,14 @@ title:
 ---
 ##  应聘岗位
 
-前端开发工程师
+- **前端开发工程师**
 
 ## 个人信息
 
 - 姓名：蔡锦
-- 博客：[CAIJIN'S LIFE NOTES](https://caijin.tech/blog/)
-- Github: [Caijinyc](https://github.com/caijinyc)
-- 学校：吉林建筑大学 2019届毕业生
+- Blog：[CAIJIN'S LIFE NOTES](https://caijin.tech/blog/)
+- Github: [CaiJinyc](https://github.com/caijinyc)
+- 教育经历：吉林建筑大学 2015.9 - 2019.6
 
 ## 联系方式
 
@@ -67,4 +67,4 @@ title:
 
 感谢您花时间阅读我的简历，期待能有机会和您共事。
 
-[下载 PDF 简历](https://hexo-image.oss-cn-shenzhen.aliyuncs.com/cv)
+> 如果您对我感兴趣的话，欢迎下载我的 [PDF 简历](https://hexo-image.oss-cn-shenzhen.aliyuncs.com/cv)。
