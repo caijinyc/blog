@@ -44,11 +44,10 @@ header {
   }
 }
 
-.main-tags {
-  .current-tag {
-    background: $color-theme;
-    border: 1px solid $color-theme;
-  }
+
+.main-tags .current-tag .tag-name{
+  background: $color-theme;
+  border: 1px solid $color-theme;
 }
 
 .post-menu-inner a:hover{
@@ -63,4 +62,8 @@ header {
 
 .connect-inner a:hover {
   background: $color-theme;
+}
+
+.recent-posts .tag-list-item a:hover {
+  color: $color-theme;
 }
