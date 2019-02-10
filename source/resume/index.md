@@ -11,13 +11,13 @@ title:
 
 - 姓名：蔡锦
 - Blog：[CAIJIN'S LIFE NOTES](https://caijin.tech/blog/)
-- Github: [CaiJinyc](https://github.com/caijinyc)
+- Github：[CaiJinyc](https://github.com/caijinyc)
 - 教育经历：吉林建筑大学 2015.9 - 2019.6
 
 ## 联系方式
 
 - 手机：153-4431-5015
-- E-mail: me@caijin.tech
+- E-mail：me@caijin.tech
 
 ## 项目经验
 
