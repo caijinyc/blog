@@ -60,6 +60,14 @@ header {
   border: 1px solid $color-theme;
 }
 
+.bottom-inner a {
+  color: $color-theme;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .connect-inner a:hover {
   background: $color-theme;
 }

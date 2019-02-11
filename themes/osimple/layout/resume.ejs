@@ -1,7 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <% include _include/head.ejs %>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CAIJIN'S RESUME - 蔡锦的简历</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131749872-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-131749872-3');
+  </script>
+  <%- css('css/osimple.css') %>
+  <%- css(`css/theme/theme${theme.theme}.css`) %>
+  <%- favicon_tag(theme.favicon) %> 
+  <%- css('css/arduino-light.css') %>
   <%- css('css/arduino-light.css') %>
 </head>
 <body>

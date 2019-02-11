@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <% include _include/head.ejs %>
+  <%- include('_include/head.ejs', { title: null }) %>
 </head>
 <body>
-  <%- partial('_include/header.ejs', {}, { cache: true }) %>
+  <%- partial('_include/header.ejs', { title: config.title }, { cache: true }) %>
   <main>
       <% include _include/recent_posts.ejs %>
       <% include _include/extra_nav.ejs %>

@@ -1,28 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <% include _include/head.ejs %>
+  <%- include('_include/head.ejs', { title: 'ABOUT ME'}) %>
   <%- css('css/arduino-light.css') %>
 </head>
 <body>
-  <header>
-      <div class="home-title-content">
-        <h1 class="title">
-            ABOUT ME
-        </h1>
-        <span class="subtitle">
-          <%= config.subtitle %>
-        </span>
-        <p class="desc">
-            <%= config.description %>
-          </p>
-      </div>
-      <div class="menu-inner">
-          <% Object.keys(theme.menu).forEach(function(key) { %>
-            <a href="<%= url_for(theme.menu[key]) %>"><%= key %></a>
-          <% }); %>
-      </div>
-    </header>
+  <%- partial('_include/header.ejs', { title: 'ABOUT ME' }, { cache: true }) %>
   <main>
     <div class="top-inner">
       <h1 class="page-title">

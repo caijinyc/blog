@@ -85,9 +85,16 @@
   }
 
   ol, ul {
-    margin: 30px 0 30px 0;
+    margin: 30px 0;
     color: $color-text;
     font-size: 15px;
+  }
+
+  ol, ul {
+    ol, ul {
+      margin-top: 5px;
+      margin-bottom: 10px;
+    }
   }
 
   li {

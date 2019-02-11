@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <% include _include/head.ejs %>
+  <%- include('_include/head.ejs', { title: 'ARCHIVE' }) -%>
 </head>
 <body>
-  <%- partial('_include/header.ejs', {}, { cache: true }) %>
+  <%- partial('_include/header.ejs', { title: 'ARCHIVE' }, { cache: true }) %>
   <main class="main-tags">
     <div class="all-tags">
       <h1 class="title">

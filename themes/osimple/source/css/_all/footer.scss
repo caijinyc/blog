@@ -7,7 +7,7 @@ footer {
     
     a {
       display: inline-block;
-      margin: 0 3px;
+      margin: 0 6px;
       width: 44px;
       height: 44px;
       border-radius: 50%;
@@ -31,9 +31,9 @@ footer {
   }
 
   .bottom-inner {
-    font-size: 13px;
-    color: $color-text;
-
+    font-size: 14px;
+    color: $color-text-gray;
+    
     .theme {
       margin-bottom: 10px;
     }
