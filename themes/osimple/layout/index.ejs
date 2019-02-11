@@ -4,7 +4,7 @@
   <%- include('_include/head.ejs', { title: null }) %>
 </head>
 <body>
-  <%- partial('_include/header.ejs', { title: config.title }, { cache: true }) %>
+  <%- include('_include/header.ejs', { title: null}) %>
   <main>
       <% include _include/recent_posts.ejs %>
       <% include _include/extra_nav.ejs %>
