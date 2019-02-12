@@ -67,4 +67,4 @@ title:
 
 感谢您花时间阅读我的简历，期待能有机会和您共事。
 
-> 如果您对我感兴趣的话，欢迎下载我的 [PDF 简历](https://hexo-image.oss-cn-shenzhen.aliyuncs.com/cv)。
+> 如果您对我感兴趣的话，欢迎下载我的 [PDF 简历](https://caijin.tech/%E7%AE%80%E5%8E%86%20%E8%94%A1%E9%94%A6%20%E5%90%89%E6%9E%97%E5%BB%BA%E7%AD%91%E5%A4%A7%E5%AD%A6%20%E6%9C%AC%E7%A7%91%2019%E5%B9%B4%E6%AF%95%E4%B8%9A%E7%94%9F%20%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88.pdf
