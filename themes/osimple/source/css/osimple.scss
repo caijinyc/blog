@@ -9,6 +9,8 @@
 
 body {
   font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB",STHeiti,"Microsoft YaHei","Microsoft JhengHei","Source Han Sans SC","Noto Sans CJK SC","Source Han Sans CN","Noto Sans SC","Source Han Sans TC","Noto Sans CJK TC","WenQuanYi Micro Hei",SimSun,sans-serif;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;  // 设置字体抗锯齿
 }
 
 main,
@@ -16,6 +18,12 @@ footer {
   position: relative;
   margin: 0 auto;
   max-width: 700px;
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    margin-top: 80px;
+  }
 }
 
 main {

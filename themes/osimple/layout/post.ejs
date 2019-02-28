@@ -5,7 +5,7 @@
   <%- css('css/arduino-light.css') %>
 </head>
 <body>
-  <div class="post-menu-inner">
+  <div class="header-menu post-header-menu">
     <a class="left" href="<%= url_for(theme.menu.HOME) %>"><%= config.title %></a>
     <div class="right">
       <% Object.keys(theme.menu).forEach(function(key) { %>
@@ -13,7 +13,7 @@
       <% }); %>
     </div>
   </div>
-  <main>
+  <main class="page-container">
     <div class="top-inner">
       <h1 class="page-title">
         <%= page.title %>

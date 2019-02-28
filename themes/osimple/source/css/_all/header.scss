@@ -1,17 +1,9 @@
 header {
-  padding: 100px 0 80px 0;
   margin-bottom: 60px;
-  text-align: center;
-
-  .home-title-content {
-    display: inline-block;
-    position: relative;
-    margin-bottom: 100px;
-  }
+  color: white;
   
   .title {
     display: inline-block;
-    margin-top: 10px;
     font-size: 60px;
     font-weight: 700;
     color: $color-text;
@@ -43,10 +35,79 @@ header {
       letter-spacing: 1px;
       color: $color-text;
       color: white;
+    }
+  }
+}
 
-      &:hover {
-        color: $color-header-hover;
-      }
+@media screen and (min-width: 600px) {
+  header {
+    text-align: center;
+  }
+  
+  .home-title-content {
+    display: inline-block;
+    position: relative;
+    margin: 100px 0 140px 0;
+  }
+
+  .header-menu {
+    padding: 5px 10px 0 10px;
+    line-height: 35px;
+
+    .left {
+      font-size: 16px;
+      float: left;
+    }
+
+    .right {
+      float: right;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 55px;
+    z-index: 999;
+  }
+
+  .home-title-content {
+    display: none;
+  }
+
+  .header-menu {
+    .left {
+      display: block;
+      padding-bottom: 5px;
+      font-size: 13px;
+    }
+  }
+}
+
+.header-menu {
+  padding: 10px 15px 0 15px;
+  height: 35px;
+  color: $color-text;
+
+  .right {
+    letter-spacing: 1px;
+    font-size: 14px;
+  }
+
+  a {
+    color: white;
+    margin-left: 7px;
+    font-weight: bold;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:hover {
+      color: $color-header-hover;
     }
   }
 }
