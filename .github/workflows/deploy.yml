@@ -16,8 +16,8 @@ jobs:
 
     steps:
       # 获取博客源码和主题
-#      - name: Checkout
-#        uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
 #
 #      - name: Checkout theme repo
 #        uses: actions/checkout@v2
@@ -56,11 +56,15 @@ jobs:
         env:
           DEPLOY_KEY: ${{ secrets.REPO_TOKEN }}
         run: |
-          sudo timedatectl set-timezone "Asia/Shanghai"
-          mkdir -p ~/.ssh
-          echo "$REPO_TOKEN" > ~/.ssh/id_rsa
+          mkdir -p ~/.ssh/
+          echo "$DEPLOY_KEY" > ~/.ssh/id_rsa 
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan github.com >> ~/.ssh/known_hosts
+
+      - name: Setup Git Infomation
+        run: |
+          git config --global user.name "caijin"
+          git config --global user.email "me@caijin.tech"
 
       # 生成并部署
       - name: Deploy
