@@ -79,7 +79,7 @@ theme: osimple
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/caijinyc/blog.git
+  repo: https://REPO_TOKEN@github.com/caijinyc/blog.git
   branch: master
 
 google_search: true
