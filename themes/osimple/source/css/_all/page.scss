@@ -244,3 +244,10 @@
     float: right;
   }
 }
+
+/**
+ 修复图片宽度超过 container 的问题
+ */
+img {
+  width: 100%
+}
