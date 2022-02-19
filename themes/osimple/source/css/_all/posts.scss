@@ -1,6 +1,6 @@
 .recent-posts {
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 760px;
 
   .recent-post-item {
     position: relative;
@@ -65,13 +65,23 @@
   }
 }
 
+.recent-post-item {
+  font-size: 14px;
+}
+
+.top-inner {
+  time {
+    font-size: 20px;
+  }
+}
+
+
 .recent-post-item,
 .top-inner {
   time {
     display: inline-block;
     margin-bottom: 16px;
     font-family: Lora,'Times New Roman',serif;
-    font-size: 13px;
     font-style: italic;
     color: rgb(109, 109, 109);
     text-align: left;
