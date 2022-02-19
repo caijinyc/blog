@@ -140,14 +140,37 @@
     font-size: 14.4px;
   }
 
+  h2:hover, h3:hover, h4:hover, h5:hover {
+    .headerlink {
+        opacity: 1;
+    }
+  }
+
   .headerlink {
     display: inline-block;
     position: absolute;
-    left: -28px;
+    left: -20px;
+    width: 26px;
     font-weight: bold;
+    color: $color-theme;
+
+    opacity: 0;
+    text-decoration: none;
+
+    /**
+     * 其他地方用了 a 标签下划线，懒的改了，这里直接干掉
+     */
+    border-bottom: none !important;
 
     &::after {
       content: '#';
+      &:hover {
+        border-bottom: 1px solid #337ab7;
+      }
+    }
+
+    &:hover {
+        opacity: 1;
     }
   }
 
